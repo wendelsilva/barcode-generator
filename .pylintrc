@@ -7,6 +7,8 @@ disable=
       R0903, # too-few-public-methods
       C0304, # Final newline missing
       C0303, # Trailing whitespace
+      E0401, # import-error
+      W0719, # broad-exception-raised
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
